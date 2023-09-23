@@ -1,7 +1,11 @@
+import Header from "@/components/Header";
+
 const Home = () => {
   return (
-    <h1 className="text-green-500">Main Content</h1>
-  )
-}
+    <div className="bg-neutral-900 rounded-lg h-full w-full overflow-hidden overflow-y-auto">
+      <Header>Head</Header>
+    </div>
+  );
+};
 
-export default Home
+export default Home;
